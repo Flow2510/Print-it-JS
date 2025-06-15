@@ -38,6 +38,12 @@ slides.forEach((image, index) => {					//   creation des dots
 	if (index === 0){
 		dot.classList.add('dot_selected');
 	}
+
+	dot.addEventListener('click', () => {			//    ajout d'un event pour changer image et texte par rapport au dot cliqué
+		currentIndex = index;
+		changeDot();
+		changeContent();
+	})
 })
 
 
@@ -51,9 +57,7 @@ function nextImage() {				//   fonction qui change l'image et le texte par rappo
 	if (currentIndex > 3){
 		currentIndex = 0;
 	}
-
-	banner.src = `./assets/images/slideshow/${slides[currentIndex].image}`;
-	textBanner.innerHTML = slides[currentIndex].tagLine;
+	changeContent();
 	changeDot();
 }
 
@@ -62,9 +66,7 @@ function previousImage() {				//   fonction qui change l'image et le texte par r
 	if (currentIndex < 0){
 		currentIndex = 3;
 	}
-
-	banner.src = `./assets/images/slideshow/${slides[currentIndex].image}`;
-	textBanner.innerHTML = slides[currentIndex].tagLine;
+	changeContent();
 	changeDot();
 }
 
@@ -73,4 +75,9 @@ function changeDot() {				//  fonction pour enlever la classe a tous les dot et 
 		d.classList.remove('dot_selected');
 	})
 	dots[currentIndex].classList.add('dot_selected');
+}
+
+function changeContent() {
+	banner.src = `./assets/images/slideshow/${slides[currentIndex].image}`;
+	textBanner.innerHTML = slides[currentIndex].tagLine;
 }

@@ -671,5 +671,102 @@
         70
       ]
     }
+  },
+  {
+    "type": "session",
+    "timestamp": "2025-06-15T20:28:39.063Z",
+    "data": {
+      "id": "1750019319063",
+      "project": "Print-it-JS",
+      "start": "2025-06-15T20:28:39.063Z",
+      "end": "2025-06-15T20:29:20.238Z"
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T20:29:16.478Z",
+    "data": {
+      "id": "1750019356478",
+      "timestamp": "2025-06-15T20:29:16.478Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\style.css",
+      "changedLines": [
+        153,
+        154
+      ]
+    }
+  },
+  {
+    "type": "session",
+    "timestamp": "2025-06-15T20:29:20.238Z",
+    "data": {
+      "id": "1750019319063",
+      "project": "Print-it-JS",
+      "start": "2025-06-15T20:28:39.063Z",
+      "end": "2025-06-15T20:29:20.238Z"
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T20:32:36.820Z",
+    "data": {
+      "id": "1750019556820",
+      "timestamp": "2025-06-15T20:32:36.820Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T20:32:49.016Z",
+    "data": {
+      "id": "1750019569016",
+      "timestamp": "2025-06-15T20:32:49.016Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": []
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T20:34:53.140Z",
+    "data": {
+      "id": "1750019693139",
+      "timestamp": "2025-06-15T20:34:53.139Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        41,
+        44,
+        59,
+        61,
+        71,
+        82,
+        83,
+        84,
+        85,
+        86
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T20:35:06.444Z",
+    "data": {
+      "id": "1750019706444",
+      "timestamp": "2025-06-15T20:35:06.444Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": []
+    }
   }
 ]
