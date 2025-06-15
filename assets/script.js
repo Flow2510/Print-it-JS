@@ -46,8 +46,6 @@ slides.forEach((image, index) => {					//   creation des dots
 	})
 })
 
-
-
 const banner = document.querySelector('.banner-img')
 const textBanner = document.querySelector('#banner p');
 const dots = document.querySelectorAll('.dot');
@@ -77,7 +75,7 @@ function changeDot() {				//  fonction pour enlever la classe a tous les dot et 
 	dots[currentIndex].classList.add('dot_selected');
 }
 
-function changeContent() {
+function changeContent() {			//   fonction pour changer le contenu de la banniere
 	banner.src = `./assets/images/slideshow/${slides[currentIndex].image}`;
 	textBanner.innerHTML = slides[currentIndex].tagLine;
 }
