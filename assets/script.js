@@ -30,12 +30,12 @@ rightArrow.addEventListener('click', () => {
 })
 
 const dotsContainer = document.querySelector('.dots');
-const index = slides.length;
 
-for (let i=0; i < index, i++;) {
-	const dot = document.createElement("span");
+slides.forEach((image, index)){
+	const dot = document.createElement('div');
 	dot.classList.add('dot');
 	dotsContainer.appendChild(dot);
+	if (index === 0){
+		dot.classList.add('dot_selected');
+	}
 }
-console.log(dot);
-console.log(index);
