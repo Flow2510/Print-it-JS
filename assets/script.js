@@ -18,44 +18,59 @@ const slides = [
 ]
 
 const leftArrow = document.querySelector('.arrow_left');
+const rightArrow = document.querySelector('.arrow_right');
 
 leftArrow.addEventListener('click', () => {
 	previousImage();
 })
-
-const rightArrow = document.querySelector('.arrow_right');
 
 rightArrow.addEventListener('click', () => {
 	nextImage();
 })
 
 const dotsContainer = document.querySelector('.dots');
-let indexActuel = 0
+let currentIndex = 0
 
-slides.forEach((image, index) => {
+slides.forEach((image, index) => {					//   creation des dots
 	const dot = document.createElement('div');
 	dot.classList.add('dot');
 	dotsContainer.appendChild(dot);
+	if (index === 0){
+		dot.classList.add('dot_selected');
+	}
 })
+
+
 
 const banner = document.querySelector('.banner-img')
 const textBanner = document.querySelector('#banner p');
+const dots = document.querySelectorAll('.dot');
 
-function nextImage() {
-	indexActuel++;
-	if (indexActuel > 3){
-		indexActuel = 0;
+function nextImage() {				//   fonction qui change l'image et le texte par rapport a l'index (suivant)
+	currentIndex++;
+	if (currentIndex > 3){
+		currentIndex = 0;
 	}
-	banner.src = `./assets/images/slideshow/${slides[indexActuel].image}`;
-	textBanner.innerHTML = slides[indexActuel].tagLine;
+
+	banner.src = `./assets/images/slideshow/${slides[currentIndex].image}`;
+	textBanner.innerHTML = slides[currentIndex].tagLine;
+	changeDot();
 }
 
-function previousImage() {
-	indexActuel--;
-	if (indexActuel < 0){
-		indexActuel = 3;
+function previousImage() {				//   fonction qui change l'image et le texte par rapport a l'index (precedent)
+	currentIndex--;
+	if (currentIndex < 0){
+		currentIndex = 3;
 	}
 
-	banner.src = `./assets/images/slideshow/${slides[indexActuel].image}`;
-	textBanner.innerHTML = slides[indexActuel].tagLine;
+	banner.src = `./assets/images/slideshow/${slides[currentIndex].image}`;
+	textBanner.innerHTML = slides[currentIndex].tagLine;
+	changeDot();
+}
+
+function changeDot() {				//  fonction pour enlever la classe a tous les dot et met le dot_selected par rapport a l'index
+	dots.forEach(d => {
+		d.classList.remove('dot_selected');
+	})
+	dots[currentIndex].classList.add('dot_selected');
 }
