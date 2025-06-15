@@ -159,5 +159,276 @@
         40
       ]
     }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:45:09.273Z",
+    "data": {
+      "id": "1750016709273",
+      "timestamp": "2025-06-15T19:45:09.273Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        28,
+        31,
+        32,
+        33,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:45:11.687Z",
+    "data": {
+      "id": "1750016711687",
+      "timestamp": "2025-06-15T19:45:11.687Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        49
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:46:10.998Z",
+    "data": {
+      "id": "1750016770997",
+      "timestamp": "2025-06-15T19:46:10.998Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:46:24.641Z",
+    "data": {
+      "id": "1750016784641",
+      "timestamp": "2025-06-15T19:46:24.641Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        56,
+        57,
+        58
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:46:26.756Z",
+    "data": {
+      "id": "1750016786756",
+      "timestamp": "2025-06-15T19:46:26.756Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        58
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:46:48.142Z",
+    "data": {
+      "id": "1750016808142",
+      "timestamp": "2025-06-15T19:46:48.142Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        22
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:51:00.023Z",
+    "data": {
+      "id": "1750017060023",
+      "timestamp": "2025-06-15T19:51:00.023Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        37,
+        38,
+        39,
+        40,
+        44,
+        45,
+        46
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:52:43.381Z",
+    "data": {
+      "id": "1750017163381",
+      "timestamp": "2025-06-15T19:52:43.381Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        48
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:52:56.105Z",
+    "data": {
+      "id": "1750017176105",
+      "timestamp": "2025-06-15T19:52:56.105Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        48
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:54:19.851Z",
+    "data": {
+      "id": "1750017259851",
+      "timestamp": "2025-06-15T19:54:19.851Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        46,
+        47
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:55:16.710Z",
+    "data": {
+      "id": "1750017316710",
+      "timestamp": "2025-06-15T19:55:16.710Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        40,
+        47
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:55:28.337Z",
+    "data": {
+      "id": "1750017328337",
+      "timestamp": "2025-06-15T19:55:28.337Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        47
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:56:17.398Z",
+    "data": {
+      "id": "1750017377398",
+      "timestamp": "2025-06-15T19:56:17.398Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        47
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:58:44.343Z",
+    "data": {
+      "id": "1750017524343",
+      "timestamp": "2025-06-15T19:58:44.343Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        40,
+        41,
+        48,
+        49
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:59:44.656Z",
+    "data": {
+      "id": "1750017584656",
+      "timestamp": "2025-06-15T19:59:44.656Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        48,
+        49
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T20:00:20.485Z",
+    "data": {
+      "id": "1750017620485",
+      "timestamp": "2025-06-15T20:00:20.485Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        48
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T20:05:16.290Z",
+    "data": {
+      "id": "1750017916290",
+      "timestamp": "2025-06-15T20:05:16.290Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        34,
+        37,
+        38,
+        48,
+        58
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T20:05:43.547Z",
+    "data": {
+      "id": "1750017943547",
+      "timestamp": "2025-06-15T20:05:43.547Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        58
+      ]
+    }
   }
 ]

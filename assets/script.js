@@ -20,22 +20,42 @@ const slides = [
 const leftArrow = document.querySelector('.arrow_left');
 
 leftArrow.addEventListener('click', () => {
-	alert("gauche")
+	previousImage();
 })
 
 const rightArrow = document.querySelector('.arrow_right');
 
 rightArrow.addEventListener('click', () => {
-	alert("droite")
+	nextImage();
 })
 
 const dotsContainer = document.querySelector('.dots');
+let indexActuel = 0
 
-slides.forEach((image, index)){
+slides.forEach((image, index) => {
 	const dot = document.createElement('div');
 	dot.classList.add('dot');
 	dotsContainer.appendChild(dot);
-	if (index === 0){
-		dot.classList.add('dot_selected');
+})
+
+const banner = document.querySelector('.banner-img')
+const textBanner = document.querySelector('#banner p');
+
+function nextImage() {
+	indexActuel++;
+	if (indexActuel > 3){
+		indexActuel = 0;
 	}
+	banner.src = `./assets/images/slideshow/${slides[indexActuel].image}`;
+	textBanner.innerHTML = slides[indexActuel].tagLine;
+}
+
+function previousImage() {
+	indexActuel--;
+	if (indexActuel < 0){
+		indexActuel = 3;
+	}
+
+	banner.src = `./assets/images/slideshow/${slides[indexActuel].image}`;
+	textBanner.innerHTML = slides[indexActuel].tagLine;
 }
