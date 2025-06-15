@@ -1,0 +1,41 @@
+[
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:12:56.427Z",
+    "data": {
+      "id": "1750014776427",
+      "timestamp": "2025-06-15T19:12:56.427Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": [
+        23,
+        24,
+        25,
+        27,
+        28
+      ]
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:13:16.462Z",
+    "data": {
+      "id": "1750014796462",
+      "timestamp": "2025-06-15T19:13:16.462Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": []
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-15T19:13:17.081Z",
+    "data": {
+      "id": "1750014797081",
+      "timestamp": "2025-06-15T19:13:17.081Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Openclassroom\\05 Premiers pas sur le langage JavaScript\\Print-it-JS\\assets\\script.js",
+      "changedLines": []
+    }
+  }
+]
