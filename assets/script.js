@@ -28,3 +28,14 @@ const rightArrow = document.querySelector('.arrow_right');
 rightArrow.addEventListener('click', () => {
 	alert("droite")
 })
+
+const dotsContainer = document.querySelector('.dots');
+const index = slides.length;
+
+for (let i=0; i < index, i++;) {
+	const dot = document.createElement("span");
+	dot.classList.add('dot');
+	dotsContainer.appendChild(dot);
+}
+console.log(dot);
+console.log(index);
