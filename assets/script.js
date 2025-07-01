@@ -31,8 +31,8 @@ rightArrow.addEventListener('click', () => {
 const dotsContainer = document.querySelector('.dots');
 let currentIndex = 0
 
-slides.forEach((image, index) => {					//   creation des dots
-	const dot = document.createElement('div');
+slides.forEach((_, index) => {						//	pour chaque, on ingnore le premier parametre avec "_" pour pouvoir avoir l'index en deuxieme argument
+	const dot = document.createElement('div');     	//   creation des dots
 	dot.classList.add('dot');
 	dotsContainer.appendChild(dot);
 	if (index === 0){
@@ -52,7 +52,7 @@ const dots = document.querySelectorAll('.dot');
 
 function nextImage() {				//   fonction qui change l'image et le texte par rapport a l'index (suivant)
 	currentIndex++;
-	if (currentIndex > 3){
+	if (currentIndex > slides.length - 1){    //	sans le -1 ca marche pas car il va chercher un index de plus (vu qu'il commance a 0)
 		currentIndex = 0;
 	}
 	changeContent();
@@ -62,7 +62,7 @@ function nextImage() {				//   fonction qui change l'image et le texte par rappo
 function previousImage() {				//   fonction qui change l'image et le texte par rapport a l'index (precedent)
 	currentIndex--;
 	if (currentIndex < 0){
-		currentIndex = 3;
+		currentIndex = slides.length - 1;
 	}
 	changeContent();
 	changeDot();
@@ -72,7 +72,7 @@ function changeDot() {				//  fonction pour enlever la classe a tous les dot et 
 	dots.forEach(d => {
 		d.classList.remove('dot_selected');
 	})
-	dots[currentIndex].classList.add('dot_selected');
+	dots[currentIndex].classList.add('dot_selected');		//    selection du dot par rapport a l'index
 }
 
 function changeContent() {			//   fonction pour changer le contenu de la banniere
