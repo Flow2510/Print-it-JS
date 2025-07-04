@@ -34,16 +34,15 @@ let currentIndex = 0
 slides.forEach((_, index) => {						//	pour chaque, on ingnore le premier parametre avec "_" pour pouvoir avoir l'index en deuxieme argument
 	const dot = document.createElement('div');     	//   creation des dots
 	dot.classList.add('dot');
-	dotsContainer.appendChild(dot);
 	if (index === 0){
 		dot.classList.add('dot_selected');
 	}
-
 	dot.addEventListener('click', () => {			//    ajout d'un event pour changer image et texte par rapport au dot cliqué
 		currentIndex = index;
 		changeDot();
 		changeContent();
 	})
+	dotsContainer.appendChild(dot);	
 })
 
 const banner = document.querySelector('.banner-img')
