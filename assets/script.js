@@ -42,7 +42,7 @@ slides.forEach((_, index) => {						//	pour chaque, on ingnore le premier parame
 		changeDot();
 		changeContent();
 	})
-	dotsContainer.appendChild(dot);	
+	dotsContainer.appendChild(dot);					// ajout des dots a la fin pour l'optimisation
 })
 
 const banner = document.querySelector('.banner-img')
